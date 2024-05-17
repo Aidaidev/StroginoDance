@@ -137,3 +137,170 @@ body {
     width: 92%;
   }
 }
+a {
+  text-decoration: none;
+}
+
+#afisha {
+  padding: 20px;
+}
+.img {
+  position: relative;
+  top: 80px;
+}
+
+.afisha-title {
+  position: absolute;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 65px;
+  font-weight: 600;
+  /* line-height: 79.63px; */
+  color: #02061d;
+}
+
+.h1 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 47.12px;
+  margin-left: 47px;
+  /* margin-top: -2px; */
+}
+.afisha {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.h5 {
+  width: 245px;
+  height: 57px;
+  color: white;
+  background: #cc0ef1;
+  position: absolute;
+  bottom: 357px;
+  left: 246px;
+  border-radius: 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.h52 {
+  width: 245px;
+  height: 57px;
+  color: white;
+  background: #cc0ef1;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  position: absolute;
+  top: 6px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+.p {
+  color: white;
+  font-size: 23px;
+  margin-left: 50px;
+  margin-top: -90px;
+  /* margin-bottom: 400px; */
+}
+.ss {
+  color: black;
+  font-size: 20px;
+  /* margin-top: 600px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.as {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  margin: 70px 0 80px 0;
+}
+.blocks img {
+  position: relative;
+}
+/* .blocks h1 {
+  position: absolute;
+} */
+.text {
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  background: #0082fe;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  top: 1111px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 620px;
+}
+.pod{
+  background: #CC0EF1;
+ width: 150px;
+ height: 40px;
+ border-radius: 10px;
+margin: 20px 0 20px 0 ;
+border: none;
+color: white;
+}
+@media (max-width:400px){
+  .block{
+    width: 50%;
+  }
+  .afisha{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .h1{
+    font-size: 20px;
+  }
+  .as{
+    /* margin-left: 20px; */
+  }
+  .blocks{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .text{
+    position: absolute;
+    /* top: -400px; */
+    margin-top: 1560px;
+  }
+  .blocks img{
+    position: relative;
+  }
+  .direction{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
